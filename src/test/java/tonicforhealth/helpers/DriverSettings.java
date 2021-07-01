@@ -18,14 +18,6 @@ public class DriverSettings {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        if (GeneralConfigImpl.isWebMobile()) { // for chrome only
-            ChromeOptions chromeOptions = new ChromeOptions();
-            Map<String, Object> mobileDevice = new HashMap<>();
-            mobileDevice.put("deviceName", GeneralConfigImpl.config.browserMobileView());
-            chromeOptions.setExperimentalOption("mobileEmulation", mobileDevice);
-            capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
-        }
-
         if (GeneralConfigImpl.isRemoteWebDriver()) {
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);

@@ -21,9 +21,6 @@ public interface GeneralConfig extends Config{
     @Config.Key("browserSize")
     String browserSize();
 
-    @Config.Key("browserMobileView")
-    String browserMobileView();
-
     @Config.Key("remoteDriverUrl")
     String remoteDriverUrl();
 

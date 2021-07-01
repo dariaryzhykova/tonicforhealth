@@ -17,8 +17,6 @@ public class BaseTest {
     @BeforeAll
     static void setUp() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        Configuration.startMaximized = true;
-        Configuration.timeout = 8000;
         DriverSettings.configure();
     }
 
