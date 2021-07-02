@@ -1,13 +1,8 @@
 package tonicforhealth.helpers;
 
 import com.codeborne.selenide.Configuration;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import tonicforhealth.config.GeneralConfig;
 import tonicforhealth.config.GeneralConfigImpl;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class DriverSettings {
 

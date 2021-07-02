@@ -8,9 +8,9 @@ import static com.codeborne.selenide.Selenide.$;
 public class Product {
 
     SelenideElement requestMoreInfoBtn = $("a.learnHow"),
-                    tonicTitle = $("h2");
+            tonicTitle = $("h2");
 
-    public void pressRequestMoreInfo(){
+    public void pressRequestMoreInfo() {
         requestMoreInfoBtn.click();
     }
 

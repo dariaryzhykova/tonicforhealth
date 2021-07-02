@@ -8,7 +8,7 @@ import org.aeonbits.owner.Config;
         "classpath:config/local.properties",
         "classpath:config/remote.properties"
 })
-public interface GeneralConfig extends Config{
+public interface GeneralConfig extends Config {
     @Config.DefaultValue("chrome")
     @Config.Key("browser")
     String browser();

@@ -4,7 +4,6 @@ import com.codeborne.selenide.Selenide;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import tonicforhealth.config.GeneralConfig;
 import tonicforhealth.config.GeneralConfigImpl;
 
 import java.net.MalformedURLException;

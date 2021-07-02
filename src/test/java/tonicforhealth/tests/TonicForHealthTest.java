@@ -9,11 +9,13 @@ import tonicforhealth.components.HelpForm;
 import tonicforhealth.helpers.DriverUtils;
 import tonicforhealth.pages.Contact;
 import tonicforhealth.pages.Product;
-import static com.codeborne.selenide.Selenide.*;
+
+import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.title;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class TonicForHealthTest extends BaseTest{
+public class TonicForHealthTest extends BaseTest {
 
     final static String TONIC_FOR_HEALTH_URL = "https://tonicforhealth.com/";
     Faker faker = new Faker();
@@ -29,7 +31,7 @@ public class TonicForHealthTest extends BaseTest{
     @Test
     @Description("Fill in help form")
     @Disabled
-    void verifyFillingInHelpForm(){
+    void verifyFillingInHelpForm() {
         step("Open url 'https://tonicforhealth.com/'", () ->
                 open(TONIC_FOR_HEALTH_URL)
         );

@@ -1,6 +1,5 @@
 package tonicforhealth.tests;
 
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -10,8 +9,6 @@ import tonicforhealth.config.GeneralConfigImpl;
 import tonicforhealth.helpers.AllureAttachments;
 import tonicforhealth.helpers.DriverSettings;
 import tonicforhealth.helpers.DriverUtils;
-
-import static com.codeborne.selenide.Selenide.open;
 
 public class BaseTest {
     @BeforeAll
