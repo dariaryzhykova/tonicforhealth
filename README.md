@@ -21,3 +21,5 @@ https://jenkins.autotests.cloud/job/tonicforhealth-jenkins-job/
 Join to the telegram chat to get results of the test run:
 
 https://t.me/joinchat/hd-dgmMQ9OFmZDJi
+
+![Screenshot](https://github.com/dariaryzhykova/tonicforhealth/blob/master/src/test/resources/img/Screenshot%202021-07-02%20at%2012.05.29.png)
